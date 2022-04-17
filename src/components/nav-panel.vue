@@ -105,6 +105,7 @@ export default {
       -webkit-box-orient: vertical;
       -webkit-line-clamp: 5;
       overflow: hidden;
+      word-break: break-all;
 
       span {
         text-overflow: ellipsis;

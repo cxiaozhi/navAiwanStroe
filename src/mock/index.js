@@ -190,7 +190,7 @@ export const NodeJs = [
   },
   {
     title: 'Nodejs全栈开发之nodejs 高级编程',
-    babel: 'Node前后端交互Node.js，通过 Node.js 平台及其相关技术完成应用程序的服务端开发，其中也会涉及目前主流的一些标准和框架，例如 GraphQL、Egg.js，掌握这些后，你可以完成整个网站或 App 的前后端开发，跻身成为全栈型的前端人才。,包含项目实战。',
+    babel: 'Nodejs全栈开发之nodejs 高级编程，通过 Node.js 平台及其相关技术完成应用程序的服务端开发，其中也会涉及目前主流的一些标准和框架，例如 GraphQL、Egg.js，掌握这些后，你可以完成整个网站或 App 的前后端开发，跻身成为全栈型的前端人才。,包含项目实战。',
     href: 'https://www.bilibili.com/video/BV1sA41137qw/?spm_id_from=autoNext'
   }
 
@@ -227,6 +227,16 @@ export const csUndergraduate = [
     title: '数据库',
     babel: '哈尔滨工业大学-数据库系统',
     href: 'https://www.bilibili.com/video/BV1PJ411F78b?share_source=copy_web'
+  }
+
+]
+
+// 前端面试
+export const interview = [
+  {
+    title: '前端面试知识点',
+    babel: '前端面试21个重要知识点',
+    href: 'https://www.runoob.com/w3cnote/front-end-interview-a-few-important-points-of-knowledge.html'
   }
 
 ]
