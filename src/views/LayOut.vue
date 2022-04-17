@@ -3,7 +3,7 @@
     <NavHeader></NavHeader>.
     <NavSearch></NavSearch>
     <NavPanel :frame="htmlCssJs" title="HTML、CSS、JS 官方文档"></NavPanel>
-    <NavPanel :frame="studyWeb" title="前端系统学习网站"></NavPanel>
+    <NavPanel :frame="studyWeb" title="前端系统学习课程"></NavPanel>
     <NavPanel :frame="frame" title="前端开发框架"></NavPanel>
     <NavPanel :frame="VueStudy" title="Vue官方资料"></NavPanel>
     <NavPanel :frame="assembly" title="Vue组件库"></NavPanel>
