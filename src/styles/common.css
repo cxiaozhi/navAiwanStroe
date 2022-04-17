@@ -1,0 +1,12 @@
+html {
+  background-color: #e7eff4;
+}
+
+.container {
+  width: 1240px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
