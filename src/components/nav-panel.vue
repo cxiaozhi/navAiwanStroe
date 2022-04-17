@@ -53,6 +53,8 @@ export default {
   background-color: #ffffff;
   margin: 20px 0;
   border-radius: 10px;
+  padding-bottom: 10px;
+  box-sizing: border-box;
 
   .header {
     border-bottom: 1px solid #e7eff4;
@@ -83,6 +85,12 @@ export default {
     }
 
     .item-font {
+      white-space: nowrap;
+      width: 100%;
+      overflow: hidden;
+      display: inline-block;
+      text-overflow: ellipsis;
+
       a {
         font-size: 18px;
         color: #00ad35;
@@ -90,9 +98,18 @@ export default {
     }
 
     .item-babel {
-      font-size: 14px;
+      display: -webkit-box;
       color: #a2a8a2;
       margin-top: 6px;
+      text-overflow: ellipsis;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 5;
+      overflow: hidden;
+
+      span {
+        text-overflow: ellipsis;
+        font-size: 14px;
+      }
     }
   }
 }
