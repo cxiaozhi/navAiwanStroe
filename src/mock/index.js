@@ -237,6 +237,10 @@ export const interview = [
     title: '前端面试知识点',
     babel: '前端面试21个重要知识点',
     href: 'https://www.runoob.com/w3cnote/front-end-interview-a-few-important-points-of-knowledge.html'
+  }, {
+    title: '尚硅谷经典前端面试题精讲',
+    babel: '涵盖内容有: HTML,CSS,JavaScript基础到高级的内容, 移动端经典问题, js经典笔试题, node.js, React, Vue, 小程序等',
+    href: 'https://www.bilibili.com/video/BV1nb411P7tQ?p=1&share_medium=iphone&share_plat=ios&share_session_id=B80ED63E-73E1-4773-B066-4821FECA15A6&share_source=COPY&share_tag=s_i&timestamp=1650210810&unique_k=XgF9gwZ'
   }
 
 ]
