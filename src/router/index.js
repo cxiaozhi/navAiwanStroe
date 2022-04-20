@@ -3,16 +3,15 @@ import VueRouter from 'vue-router'
 
 Vue.use(VueRouter)
 
-const routes = [
-  {
-    path: '/',
-    name: 'layout',
-    component: () => import('@/views/LayOut')
-  }
-]
+const routes = [{
+  path: '/',
+  name: 'layout',
+  component: () => import('@/views/LayOut')
+}]
 
 const router = new VueRouter({
-  routes
+  routes,
+  mode: 'history'
 })
 router.beforeEach((to, from, next) => {
   document.title = '大前端技术栈导航'
